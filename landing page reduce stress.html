@@ -1,0 +1,202 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reduce Stress</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background: #f3f4f6;
+            color: #333;
+        }
+
+        header {
+            background: #3b5998;
+            color: #fff;
+            padding: 1rem 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+        }
+
+        .nav-links li {
+            margin-left: 1.5rem;
+        }
+
+        .nav-links a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1rem;
+            padding: 0.5rem 1rem;
+            transition: background 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            background: #365492;
+            border-radius: 5px;
+        }
+
+        .hero {
+            background: url('https://www.slashgear.com/img/gallery/researchers-find-big-downside-to-living-a-stress-free-life/intro-import.jpg') no-repeat center center/cover;
+            color: #fff;
+            text-align: center;
+            padding: 8rem 2rem;
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .hero h1 {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+            max-width: 600px;
+        }
+
+        .cta-button {
+            background: #dee0e5;
+            padding: 1rem 2rem;
+            border: none;
+            font-size: 1.2rem;
+            cursor: pointer;
+            text-decoration: none;
+            border-radius: 30px;
+            transition: background 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background:#e8e9eb;
+        }
+
+        .content-section {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 2rem;
+            text-align: center;
+        }
+
+        .content-section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+            color: #333;
+        }
+
+        .content-section p {
+            font-size: 1.1rem;
+            color: #666;
+            margin-bottom: 1.5rem;
+            max-width: 800px;
+            margin: 0 auto 1.5rem;
+        }
+
+        .content-section .tips {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .content-section .tip {
+            background: #fff;
+            padding: 1.5rem;
+            margin: 1rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: calc(30% - 2rem);
+            text-align: left;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .content-section .tip:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .content-section .tip h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: #3b5998;
+        }
+
+        .content-section .tip p {
+            font-size: 1rem;
+            color: #666;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#tips">Tips</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero" id="home">
+            <h1>Reduce Stress</h1>
+            <p>Discover effective techniques to manage and reduce stress for a healthier, happier life.</p>
+            <a href="#tips" class="cta-button">Learn More</a>
+        </section>
+        <section class="content-section" id="tips">
+            <h2>Stress Reduction Tips</h2>
+            <p>Implement these simple yet powerful tips to reduce your stress levels and improve your overall well-being.</p>
+            <div class="tips">
+                <div class="tip">
+                    <h3>Practice Mindfulness</h3>
+                    <p>Mindfulness involves focusing on the present moment without judgment. It can help reduce anxiety and increase your awareness of your thoughts and feelings.</p>
+                </div>
+                <div class="tip">
+                    <h3>Exercise Regularly</h3>
+                    <p>Engaging in physical activities like walking, running, or yoga can help lower stress hormones and trigger the release of endorphins, which are natural mood boosters.</p>
+                </div>
+                <div class="tip">
+                    <h3>Get Enough Sleep</h3>
+                    <p>Quality sleep is essential for your mental and physical health. Establish a regular sleep schedule and create a relaxing bedtime routine to improve your sleep quality.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Reduce Stress. All rights reserved.</p>
+    </footer>
+</body>
+</html>
